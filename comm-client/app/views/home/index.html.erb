@@ -1,11 +1,15 @@
 
+<h1>SEND A MESSAGE</h1>
 
+<input type="radio" name="group1" id="email_button" value="email" /> Email<br>
+<input type="radio" name="group1" id="text_button" value="text" /> Text<br>
+<input type="radio" name="group1" id="twitter_button" value="twitter" />  Twitter<br>
 
-<input type="radio" name="group1" value="email"> Email<br>
-<input type="radio" name="group1" value="text" checked> Text<br>
-<input type="radio" name="group1" value="twitter">  Twitter<br>
+Type email, phone or twitter handle: <br>
+<input type="textarea" id="receiver" /> <br>
+Type your message here: <br>
+<input type="text" id="message_text" />
+<br>
+<input type="button" id="go_button" value="Go"/>
 
-<input type="textarea" id="textarea" value="type email, phone or twitter handle" /><br>
-<input type="text" id="textarea" value="type your message here" />
-
-<input type="button" value="Go"/>
+<div id="return_message"></div>
