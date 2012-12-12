@@ -19,14 +19,8 @@ class MessagesController < ApplicationController
     when 'twitter'
       Twitter.update("#{to} #{msg_text}")
     end
-
     render :json => params
   end
-
-  # respond_to do |format|
-  #     format.html # index.html.erb
-  #     format.json { render json: @messages }
-  # end
 
   private
     def allow_cross_origin_access

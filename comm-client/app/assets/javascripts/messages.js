@@ -18,8 +18,7 @@ function send_message()
 
 {
   console.log("Data Saved: " + msg_text);
-  alert('text worked');
-
+    alert('your message was sent')
 });
 
 }
